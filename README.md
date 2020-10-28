@@ -1,4 +1,4 @@
-# TendemAssigmnent
+# TandemAssigmnent
 I have used python3 for the implementation of this assigment.
 
 Reviewer can compile the assignment using the following command
