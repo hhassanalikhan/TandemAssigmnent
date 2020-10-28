@@ -49,7 +49,10 @@ if __name__ == "__main__":
                     print(j+1,') ',options[j],end = '     ')
                 print('\n')
                 selectedOption = input('Your answer? (Press 1 or 2 or 3 or 4 and press enter): ')
-                selectedOption = int(selectedOption)
+                try:
+                    selectedOption = int(selectedOption)
+                except:
+                    selectedOption = -1
                 selectedOption = selectedOption -1
                 if selectedOption < len(options) and options[selectedOption] == currentQuestion['correct']:
                     myPoints+=1
